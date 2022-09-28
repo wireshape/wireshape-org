@@ -185,7 +185,7 @@ html[data-theme='dark'] .heroBanner h2 {
     font-size: 18px;
     line-height: 28px;
     padding: 12px 24px;
-    background: #ed3545;
+    background: #f4511e;
     border-radius: 8px;
     color: white;
     font-weight: 600;
@@ -193,7 +193,7 @@ html[data-theme='dark'] .heroBanner h2 {
 
 .getStarted:hover {
     color: white;
-    background: #ad1934;
+    background: #ce4419;
 }
 
 html[data-theme='dark'] .getStarted {

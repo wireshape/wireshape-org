@@ -34,7 +34,7 @@ function Hero() {
                     <div className="row">
                         <div className="col">
                             <div className={styles.heroButtons}>
-                                <Link to="https://github.com/wireshape" className={styles.getStarted}>Get Involved</Link>
+                                <Link to="https://airtable.com/shrkEABK7ssVsUViS" className={styles.getStarted}>Get Involved</Link>
                                 <iframe src="https://ghbtns.com/github-btn.html?user=wireshape&repo=whitepaper&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
                             </div>
                         </div>
