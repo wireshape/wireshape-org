@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <circle cx="17.5" cy="17.5" r="14.583" style="fill:none;stroke:black;stroke-width:2.2px;"/>
+    <g>
+        <path d="M11.131,4.473C13.14,4.905 14.586,6.697 14.586,8.751C14.586,11.152 12.611,13.127 10.21,13.127C7.984,13.127 6.095,11.43 5.858,9.217M32.083,19.031C31.124,18.052 29.809,17.5 28.438,17.5C25.638,17.5 23.334,19.804 23.334,22.604C23.334,25.13 25.209,27.295 27.708,27.656" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:2.2px;"/>
+        <path d="M21.146,12.41L21.16,12.394M14.583,24.792C16.183,24.792 17.5,23.475 17.5,21.875C17.5,20.275 16.183,18.958 14.583,18.958C12.983,18.958 11.667,20.275 11.667,21.875C11.667,23.475 12.983,24.792 14.583,24.792Z" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;"/>
+    </g>
+</svg>
