@@ -19,10 +19,10 @@ function Hero() {
                     <div className={clsx(styles.relative, 'row')}>
                         <div className="col">
                             <h1 className={styles.tagline}>
-                                Wireshape is the<br />open blockchain for<br />global product data
+                                Wireshape is the <br />open blockchain for <br />global product data
                             </h1>
                             <h1 className={styles.tagline}>
-                                <span>Wireshape</span> is the<br />open <span>blockchain</span> for<br />global <span>product data</span>
+                                <span>Wireshape</span> is the <br />open <span>blockchain</span> for <br />global <span>product data</span>
                             </h1>
                         </div>
                     </div>
