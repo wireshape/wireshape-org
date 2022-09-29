@@ -18,7 +18,7 @@ const FeatureList = [
         Svg: require('../../static/img/features/3d-select-face.svg').default,
         description: (
             <>
-                Wireshape transforms real products into realistic 3D NFTs, which through Wireshape Viewer can be
+                Wireshape contributors transforms real products into realistic 3D NFTs, which through Wireshape Viewer can be
                 previewed three-dimensionally in detail as well as experienced in the customer's own environment through Augmented Reality technology.
             </>
         ),
@@ -29,7 +29,7 @@ const FeatureList = [
         description: (
             <>
                 A new product data standard, open and audited by the community. Consumers themselves, as well as
-                manufacturers, will be able to suggest and validate the fidelity of product information that is publicly recorded on the blockchain.
+                manufacturers, are able to suggest and validate the fidelity of product information that is publicly recorded on the blockchain.
             </>
         ),
     },
@@ -48,7 +48,7 @@ const FeatureList = [
         Svg: require('../../static/img/features/keyframes-couple.svg').default,
         description: (
             <>
-                Web2 is being replaced by web3 and graphics are moving from 2D to immersive 3D. Wireshape network will help
+                Web2 is being replaced by web3 and graphics are moving from 2D to immersive 3D. Wireshape network helps
                 make this transition happen to a better shopping experience and customer engagement, with easy-to-implement tools and APIs.
             </>
         ),
