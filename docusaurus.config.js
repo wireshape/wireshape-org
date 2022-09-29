@@ -82,6 +82,8 @@ const config = {
           },
         ],
       },
+      metadata: [],
+      image: 'img/splash.jpg',
       footer: {
         style: 'dark',
         links: [
