@@ -82,7 +82,7 @@ const config = {
           },
         ],
       },
-      metadata: [],
+      metadata: [{property: 'og:description', content: 'The open blockchain for global product data'}],
       image: 'img/splash.jpg',
       footer: {
         style: 'dark',
