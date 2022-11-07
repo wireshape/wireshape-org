@@ -1,0 +1,46 @@
+{
+  "docs": [
+    "quick-start/introduction",
+    {
+      "type": "category",
+      "label": "Learn about Wireshape",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "learn/introduction"
+      },
+      "items": [
+        "learn/problem",
+        "learn/protocol",
+        "learn/standard",
+        "learn/community",
+        "learn/dao",
+        "learn/ecosystem"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Setup",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "setup/introduction"
+      },
+      "items": [
+        "setup/metamask"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Blockchain",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "chain/introduction"
+      },
+      "items": [
+        "chain/explorer"
+      ]
+    }
+  ]
+}
