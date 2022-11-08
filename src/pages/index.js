@@ -60,20 +60,20 @@ function TopBanner() {
                 <div className="col col--8">
                     <div className={clsx('container', styles.textRow)}>
                         <div className="row">
-                            <h1>🎉 Crawlee is out!</h1>
+                            <h1>🎉 Wireshape is out!</h1>
                         </div>
                         <div className="row">
-                            Check Crawlee on{' '}
-                            <Link to="https://github.com/apify/crawlee">
+                            Check Wireshape on{' '}
+                            <Link to="https://github.com/wireshape/wireshape-org">
                                 <GHLogo className={styles.ghLogoSmall} />
                                 GitHub
                             </Link>,&nbsp;
-                            <Link to="https://news.ycombinator.com/item?id=32561127">
+                            <Link to="https://news.ycombinator.com/item?id=33521276">
                                 <HNLogo className={styles.hnLogoSmall} />
                                 Hacker News
                             </Link>
                             &nbsp;and&nbsp;
-                            <Link to="https://www.producthunt.com/posts/crawlee">
+                            <Link to="https://www.producthunt.com/posts/wireshape-studio-beta">
                                 <PHLogo className={styles.phLogoSmall} />
                                 Product Hunt
                             </Link>!
@@ -93,30 +93,17 @@ function Features() {
         <section className={clsx('container', styles.features)}>
             <div className="row">
                 <div className="col col--6">
-                    <h2>Reliable crawling 🏗</h2>
+                    <h2>Wireshape Test</h2>
                     <p>
-                        Crawlee won't fix broken selectors for you (yet), but it helps you <b>build and maintain your crawlers faster</b>.
-                    </p>
-                    <p>
-                        When a website adds JavaScript rendering, you don't have to rewrite everything, only switch to
-                        one of the browser crawlers. When you later find a great API to speed up your crawls, flip the switch back.
-                    </p>
-                    <p>
-                        It keeps your proxies healthy by rotating them smartly with good fingerprints that make your crawlers
-                        look human-like. It's not unblockable,
-                        but <a href="https://blog.apify.com/daltix-python-vs-apify-sdk/" target="_blank" rel="noreferrer"><b>it will save you money in the long run</b></a>.
-                    </p>
-                    <p>
-                        Crawlee is built by people who scrape for a living and use it every day to scrape millions of pages.
-                        <a href="https://discord.com/invite/jyEM2PRvMU" target="_blank" rel="noreferrer"><b> Meet our community on Discord</b></a>.
+                        Wireshape
                     </p>
                 </div>
                 <div className="col col--6">
                     <div className="video-container">
                         <LiteYouTubeEmbed
-                            id="g1Ll9OlFwEQ"
+                            id="S6_g5-Wv6Q4"
                             params="autoplay=1&autohide=1&showinfo=0&rel=0"
-                            title="Crawlee, the web scraping and browser automation library"
+                            title="Wireshape, Open Product Data Blockchain"
                             poster="maxresdefault"
                             webp
                         />
@@ -127,53 +114,30 @@ function Features() {
     );
 }
 
-const example = `import { PlaywrightCrawler, Dataset } from 'crawlee';
-
-// PlaywrightCrawler crawls the web using a headless
-// browser controlled by the Playwright library.
-const crawler = new PlaywrightCrawler({
-    // Use the requestHandler to process each of the crawled pages.
-    async requestHandler({ request, page, enqueueLinks, log }) {
-        const title = await page.title();
-        log.info(\`Title of \${request.loadedUrl} is '\${title}'\`);
-
-        // Save results as JSON to ./storage/datasets/default
-        await Dataset.pushData({ title, url: request.loadedUrl });
-
-        // Extract links from the current page
-        // and add them to the crawling queue.
-        await enqueueLinks();
-    },
-    // Uncomment this option to see the browser window.
-    // headless: false,
-});
-
-// Add first URL to the queue and start the crawl.
-await crawler.run(['https://crawlee.dev']);
+const example = `
+const wireshape = 'wire'
 `;
 
 function ActorExample() {
     return (
         <section className={clsx(styles.try, 'container')}>
             <div className="col">
-                <h2>Try Crawlee out 👾</h2>
+                <h2>Try Wireshape out 👾</h2>
                 <Admonition type="caution" title="before you start">
-                    Crawlee requires <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><b>Node.js 16 or higher</b></a>.
+                    Wireshape requires <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><b>Node.js 16 or higher</b></a>.
                 </Admonition>
                 <p>
-                    The fastest way to try Crawlee out is to use the <b>Crawlee CLI</b> and choose the <b>Getting started example</b>.
+                    <b>Getting started example</b>.
                     The CLI will install all the necessary dependencies and add boilerplate code for you to play with.
                 </p>
                 <CodeBlock className="language-bash">
-                    npx crawlee create my-crawler
+                    npx wireshape create my-wire
                 </CodeBlock>
                 <p>
-                    If you prefer adding Crawlee <b>into your own project</b>, try the example below.
-                    Because it uses <code>PlaywrightCrawler</code> we also need to install Playwright.
-                    It's not bundled with Crawlee to reduce install size.
+                    If you prefer adding Wireshape <b>into your own project</b>, try the example below.
                 </p>
                 <CodeBlock className="language-bash">
-                    npm install crawlee playwright
+                    npm install wireshape
                 </CodeBlock>
                 <CodeBlock className="language-typescript">
                     {example}
@@ -184,7 +148,7 @@ function ActorExample() {
 }
 
 export default function Home() {
-    const SvgLogo = require('../../static/img/crawlee-logo.svg').default;
+    // const SvgLogo = require('../../static/img/wireshape-logo.svg').default;
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout

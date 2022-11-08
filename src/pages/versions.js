@@ -33,7 +33,7 @@ function Versions(props) {
                         <h1>{siteConfig.title} Versions</h1>
                     </header>
                     <p>
-                        New versions of Apify SDK are released once a month or
+                        New versions of Wireshape SDK are released once a month or
                         so. With major releases once a year.
                     </p>
                     <h3 id="latest">Current version (Stable)</h3>
@@ -51,7 +51,7 @@ function Versions(props) {
                                             props.language
                                                 ? `${props.language}/`
                                                 : ''
-                                        }api/apify`}
+                                        }api/wireshape`}
                                     >
                                         Documentation
                                     </a>
@@ -68,7 +68,7 @@ function Versions(props) {
                     </table>
                     <p>
                         This is the version that is configured automatically
-                        when you first install Apify SDK.
+                        when you first install Wireshape SDK.
                     </p>
                     <h3 id="rc">Pre-release versions</h3>
                     <table className="versions">
@@ -85,7 +85,7 @@ function Versions(props) {
                                             props.language
                                                 ? `${props.language}/`
                                                 : ''
-                                        }next/api/apify`}
+                                        }next/api/wireshape`}
                                     >
                                         Documentation
                                     </a>
@@ -118,7 +118,7 @@ function Versions(props) {
                                                         props.language
                                                             ? `${props.language}/`
                                                             : ''
-                                                    }${version}/api/apify`}
+                                                    }${version}/api/wireshape`}
                                                 >
                                                     Documentation
                                                 </a>
