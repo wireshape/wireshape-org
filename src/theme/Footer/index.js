@@ -27,7 +27,6 @@ function Footer() {
     }
     const { links, style } = footer;
     const OpenSourceIcon = require('../../../static/img/footer-open-source.svg').default;
-    const ApifyLogo = require('../../../static/img/footer-apify-logo.svg').default;
     return (
         <footer className={clsx(styles.footer, style)}>
             <div className="container padding-horiz--lg">
