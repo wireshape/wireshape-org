@@ -52,10 +52,10 @@ export default function DocItemLayout({ children }) {
                     </article>
                     <DocItemPaginator/>
 
-                    <Giscus
+{/*                     <Giscus
                         id="giscus-comments"
                         repo="wireshape/wireshape-org"
-                        repoId="MDEwOlJlcG9zaXRvcnk2NjY3MDgxOQ="
+                        repoId="id"
                         category="Comments"
                         categoryId="DIC_kwDOA_lQ484CQufN"
                         mapping="pathname"
@@ -65,7 +65,7 @@ export default function DocItemLayout({ children }) {
                         theme={colorMode}
                         lang="en"
                         strict="1"
-                    />
+                    /> */}
                 </div>
             </div>
 
