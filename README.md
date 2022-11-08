@@ -1,4 +1,6 @@
-# Website
+# 👋 Welcome to wireshape.org!
+
+![](static/img/splash.jpg)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
