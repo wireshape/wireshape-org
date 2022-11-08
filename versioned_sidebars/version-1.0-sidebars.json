@@ -4,7 +4,7 @@
     {
       "type": "category",
       "label": "Learn about Wireshape",
-      "collapsed": true,
+      "collapsed": false,
       "link": {
         "type": "doc",
         "id": "learn/introduction"
@@ -41,6 +41,7 @@
       "items": [
         "chain/explorer"
       ]
-    }
+    },
+    "faq/wireshape"
   ]
 }
