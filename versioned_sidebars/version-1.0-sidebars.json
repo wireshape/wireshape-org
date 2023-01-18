@@ -14,8 +14,19 @@
         "learn/protocol",
         "learn/standard",
         "learn/community",
-        "learn/dao",
         "learn/ecosystem"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "DAO",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "dao/dao"
+      },
+      "items": [
+        "dao/membership"
       ]
     },
     {
@@ -39,7 +50,12 @@
         "id": "chain/introduction"
       },
       "items": [
-        "chain/explorer"
+        "chain/tcpr",
+        "chain/brand-verification",
+        "chain/explorer",
+        "chain/api",
+        "chain/node-validation"
+        
       ]
     },
     "social/community",
