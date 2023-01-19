@@ -3,18 +3,18 @@
     "quick-start/introduction",
     {
       "type": "category",
-      "label": "Learn about Wireshape",
+      "label": "Whitepaper",
       "collapsed": false,
       "link": {
         "type": "doc",
-        "id": "learn/introduction"
+        "id": "whitepaper/whitepaper"
       },
       "items": [
-        "learn/problem",
-        "learn/protocol",
-        "learn/standard",
-        "learn/community",
-        "learn/ecosystem"
+        "whitepaper/problem",
+        "whitepaper/protocol",
+        "whitepaper/standard",
+        "whitepaper/community",
+        "whitepaper/ecosystem"
       ]
     },
     {
@@ -26,19 +26,11 @@
         "id": "dao/dao"
       },
       "items": [
-        "dao/membership"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Setup",
-      "collapsed": true,
-      "link": {
-        "type": "doc",
-        "id": "setup/introduction"
-      },
-      "items": [
-        "setup/metamask"
+        "dao/purpose",
+        "dao/membership",
+        "dao/ecossistem",
+        "dao/contributors",
+        "dao/decentralized-governance"
       ]
     },
     {
@@ -50,12 +42,41 @@
         "id": "chain/introduction"
       },
       "items": [
+        "chain/setup",
         "chain/tcpr",
-        "chain/brand-verification",
         "chain/explorer",
         "chain/api",
-        "chain/node-validation"
-        
+        "chain/validation-node"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "dApp",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "dapp/dapp"
+      },
+      "items": [
+        "dapp/explore",
+        "dapp/add-product",
+        "dapp/update-product",
+        "dapp/curate-products",
+        "dapp/brand-verification"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "3D/AR NFTs",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "3d-ar-nfts/3d-ar-nfts"
+      },
+      "items": [
+        "3d-ar-nfts/3d-scan",
+        "3d-ar-nfts/ar-viewer",
+        "3d-ar-nfts/metaverse"
       ]
     },
     "social/community",
