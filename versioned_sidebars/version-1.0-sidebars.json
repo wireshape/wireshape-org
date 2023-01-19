@@ -28,7 +28,7 @@
       "items": [
         "dao/purpose",
         "dao/membership",
-        "dao/ecossistem",
+        "dao/ecosystem",
         "dao/contributors",
         "dao/decentralized-governance"
       ]
