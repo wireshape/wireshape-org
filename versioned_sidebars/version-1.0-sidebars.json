@@ -12,6 +12,7 @@
       "items": [
         "whitepaper/problem",
         "whitepaper/protocol",
+        "whitepaper/tcpr",
         "whitepaper/standard",
         "whitepaper/community",
         "whitepaper/ecosystem"
@@ -43,7 +44,6 @@
       },
       "items": [
         "chain/setup",
-        "chain/tcpr",
         "chain/explorer",
         "chain/api",
         "chain/validation-node"
