@@ -1,8 +1,8 @@
 # 👋 Welcome to wireshape.org!
 
-![](static/img/splash.jpg)
+Wireshape is a open blockchain for global product data boosting the new generation of digital solutions through public goods.
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![](static/img/splash.jpg)
 
 ### Installation
 
