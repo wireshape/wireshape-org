@@ -76,8 +76,8 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/wireshape',
-            label: 'GitHub',
+            href: 'https://floripa-explorer.wireshape.org',
+            label: 'Block Explorer',
             position: 'right',
           },
         ],
@@ -91,6 +91,10 @@ const config = {
             title: 'Tools',
             items: [
               {
+                label: 'Wireshape dApp',
+                href: 'https://beta.wireshape.com',
+              },
+              {
                 label: 'Wireshape Studio',
                 href: 'https://studio.wireshape.com',
               },
@@ -99,6 +103,10 @@ const config = {
           {
             title: 'Community',
             items: [
+              {
+                label: 'Galxe',
+                href: 'https://galxe.com/wireshape',
+              },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/wireshape',
@@ -120,6 +128,10 @@ const config = {
               //   label: 'Blog',
               //   to: '/blog',
               // },
+              {
+                label: 'Get Involved',
+                href: 'https://docs.google.com/forms/d/e/1FAIpQLSfjMtXpoBhIzrHqlCZQs7CapgMXDxYJI22iXvAfNX7h7rNaFw/viewform',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/wireshape',

@@ -34,7 +34,7 @@ function Hero() {
                     <div className="row">
                         <div className="col">
                             <div className={styles.heroButtons}>
-                                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfjMtXpoBhIzrHqlCZQs7CapgMXDxYJI22iXvAfNX7h7rNaFw/viewform" className={styles.getStarted}>Get Involved</Link>
+                                <Link to="https://beta.wireshape.org" className={styles.getStarted}>Go to Platform</Link>
                                 <iframe src="https://ghbtns.com/github-btn.html?user=wireshape&repo=whitepaper&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
                             </div>
                         </div>
